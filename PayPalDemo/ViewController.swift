@@ -8,16 +8,7 @@
 
 import UIKit
 import Braintree
-/*
- braintree & paypal acc:
- pradeep.sagar.ios@gmail.com/ sagar9718
- 
- account: sb-rl5zw1748613@personal.example.com
- client id: Ad_9DuwzUk1v-AnZyHSxUBTCI9uK3qfTLbDPGgDYV8lfG4AlMKSaVfD_lt-zk8vt-3rBQ3f3_F9N_mdC
- secret: EHovYC5wGSkziZLXWMUoaWOnUip3JoFqBV-ZiF352SBR2SWUaaT1_FYNtPa8lBBBjxX-CrGPNk70pCtu
- tokenization key: sandbox_mfh8zzzh_rjjz8dmq92vs7qmg
- 
- */
+
 class ViewController: UIViewController {
 
     var braintreeClient: BTAPIClient!
