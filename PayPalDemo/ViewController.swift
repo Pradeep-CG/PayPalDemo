@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        braintreeClient = BTAPIClient(authorization: "sandbox_mfh8zzzh_rjjz8dmq92vs7qmg")!
+        braintreeClient = BTAPIClient(authorization: "tokenization key")!
         
         
     }
